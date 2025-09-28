@@ -2,11 +2,11 @@
 
 - **BIT Number:** 0017A
 - **Title:** Neuron Registration Redesign
-- **Author(s):** [rd4Fun, fish]
+- **Author(s):** rd4Fun, fish
 - **Discussions-to:** [https://discord.com/channels/1120750674595024897/1412842821953781830]
 - **Status:** Draft
 - **Type:** Subtensor
-- **Created:** [2025-09-20]
+- **Created:** 2025-09-20
 - **Updated:** [Date]
 - **Requires:** [none]
 
@@ -169,7 +169,7 @@ Attack vectors
 
 Mitigation - limits and formulas
 1. range limit the NeuronIncreaseMult from 1 to 5 with up to 3 decimal points
-2. range limit NeuronReductionInterval minimum of 1 to xx where x is in 7200*
+2. range limit NeuronReductionInterval minimum of 1 to x where x is a small multiple of days
 
 
 
