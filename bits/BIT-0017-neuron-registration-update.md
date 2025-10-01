@@ -79,7 +79,7 @@ The registration price and difficulty for new subnets should be defined by two n
 
 ### Price and Difficulty algorithm formulas
 When a registration occurs, set:  
-- high_registration_rate = TRUE if current_block - last_reg_block > NeuronReductionInterval / 2
+- high_registration_rate = TRUE if current_block - last_reg_block < NeuronReductionInterval / 2
 - burn_at_last_reg = Burn Value at last registration (either type of registration)  
 - difficulty_at_last_reg = Difficulty Value at last registration (either type of registration)  
 - last_reg_block = current block
